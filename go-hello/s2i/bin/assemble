@@ -16,6 +16,5 @@ fi
 echo "---> Installing application source..."
 cp -Rf /tmp/src/. /opt/app-root/
 
-export XDG_CACHE_HOME=/tmp/
 echo "---> Building application from source..."
 go build app.go
